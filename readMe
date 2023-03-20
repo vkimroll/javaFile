@@ -1,5 +1,5 @@
 // Manually building the application
-* This is a basic gradle init project using Groovy to generate the build file.
+* This is a basic gradle init project using Groovy to generate the build file. Gradlew was used to build the application.
 gradle folder> gradlew > build.gradle. Using rollbar dependency
 
 // Flow:
@@ -7,26 +7,16 @@ gradle folder> gradlew > build.gradle. Using rollbar dependency
 - Instantiates a single instance of the work object and,
 - Executes some methods.
 
-gradlew will be used to build the application. Go under gradle folder
-gradlew > build.gradle
-Using rollbar dependency
-
 // Notes:
-* look up com.google.guava:guava:31.1-jre
-* App src app.java is where the java file/ package javafile is
+* App src app.java is where the java file/ package is
 * Build and run for execution
 ./gradlew build
 ./gradlew run OR ./gradlew build run
-creates app.jar and other temporary files converted into gibberish file than can be executed quickly
-
-* Environment. Must use the correct spelling to be able to build
-* Environment and codeVersion quotes are wrong should be ""
-* Edit public static void main(String[] args) by adding throws Exception
 
 // Resources
 https://www.javatpoint.com/gradle-java-application
 https://docs.rollbar.com/docs/gradle
-
+com.google.guava:guava:31.1-jre
 
 
 
